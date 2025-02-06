@@ -8,4 +8,4 @@ result = 0
 for i in range(n):
     result += (ord(arr[i]) - 96) * (31 ** i)
 
-print(result)
+print(result % 1234567891)
